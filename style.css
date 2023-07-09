@@ -88,6 +88,9 @@ nav a{
    max-width:1140px;
    margin: o auto;
    }
+   main section{
+    margin-top: 130px;
+   }
    .about{
     padding: 130px;
     border-radius: 10px;
@@ -114,4 +117,55 @@ nav a{
    .about-info{
     text-align: center;
    }
+   #what-i-description{
+    padding: 30px 150px;
+   }
+.skill-container{
+  display: flex;
+  gap:24px ;
+}
+.skill{
+  /* margin-right: 10px; */
+  padding: 30px;
+  /* gap:24px ; */
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, .06);
+  
+}
+.skill-description{
+  color: #757575;
+}
+.resume-container{
+  display: flex;
+  gap:50px;
+
+}
+.resume-column-title{
+  color:  #474747;
+
+font-size: 30px;
+
+font-weight: 700;
+
+
+}
+.resume-item-description ,.resume-item-info{
+  color: #757575;
+}
+.resume-item-info{
+  font-size: 20px;
+  margin-bottom:20px ;
+  margin-top: 0;
+}
+.resume-container hr{
+  margin:30px ;
+}
+.section{
+  margin-left:230px;
+  margin-right: 230px;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+}
 
